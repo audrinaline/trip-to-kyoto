@@ -1,0 +1,75 @@
+#map {
+  height: 100vh;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  position: absolute;
+  top: 72px;
+  bottom: 0;
+  left: 10px;
+  background-color: #FFC200FF;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 280px;
+  height: 560px;
+  padding: 10px;
+}
+
+input {
+  width: 85%;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 1px;
+  margin: 1px;
+}
+
+.list-item {
+    margin: 15px;
+    padding: 10px 0;
+    cursor: pointer;
+    width: 85%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.list-item:hover {
+  color: white;
+  background-color: #7F3F02FF;
+  padding: 10px;
+}
+
+.icon {
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+}
+
+/*suitable for iphones*/
+@media screen and (max-width: 400px) {
+  .sidebar {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 140px;
+    top: 630px;
+    overflow: scroll;
+  }
+}
