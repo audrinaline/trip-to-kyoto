@@ -3,7 +3,7 @@
 ## BACKGROUND
 This is a neighborhood map project pointing out places I would reccommend if you are visiting Kyoto, Japan. This project was built using [create-react-app](https://github.com/facebook/create-react-app) along with other dependencies.
 
-[Click Here!](http://gamy-corn.surge.sh)
+[Click Here!](trip-to-kyoto.surge.sh)
 
 --------------------------------------------------------------------------------
 
